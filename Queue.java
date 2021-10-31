@@ -10,4 +10,14 @@ public class Queue {
 	public void enqueue(int data) {
 		list.addLast(data);
 	}
+	
+	public void dequeue() {
+		list.removeFirst();
+	}
+	
+	public void display() {
+		System.out.println(list);
+		
+	}
+	
 }
